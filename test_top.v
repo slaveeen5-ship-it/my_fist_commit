@@ -42,6 +42,7 @@ output wire 	[7:0 ]count_ch_test
 //  (* mark_debug = "true" *) (* dont_touch *) wire [7:0] system_synch_pins_out;
 	wire              [35:0] CONTROL0;
 	reg          [7:0] led_pins;
+		reg          [7:0] _led_pins;
 //  //(* dont_touch *) wire [7:0] data_out_ADC;
 //
 //  
@@ -82,10 +83,13 @@ assign led_pins_out  = led_pins;//D20-hight
     if (rst_pin)
         begin
             led_pins <= 8'h0;
+            _led_pins <= 8'h0;
+
         end       
     else 
         begin
-            led_pins <= ADC_in;
+            _led_pins <= ADC_in;
+				 led_pins <= _led_pins;
         end                         
  end
  
