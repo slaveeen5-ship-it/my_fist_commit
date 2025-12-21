@@ -1,0 +1,5 @@
+#NET "clk_pin_p"			TNM_NET = "clk_in";
+#
+#TIMESPEC "clk_in" = PERIOD "clk_in" 10.0 ns HIGH 50% PRIORITY 1;IN
+
+NET "clk_pin_p" PERIOD = 10 ns;
