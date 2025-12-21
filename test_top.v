@@ -43,6 +43,7 @@ output wire 	[7:0 ]count_ch_test
 	wire              [35:0] CONTROL0;
 	reg          [7:0] led_pins;
 		reg          [7:0] _led_pins;
+		reg          [7:0] __led_pins;
 //  //(* dont_touch *) wire [7:0] data_out_ADC;
 //
 //  
@@ -84,12 +85,14 @@ assign led_pins_out  = led_pins;//D20-hight
         begin
             led_pins <= 8'h0;
             _led_pins <= 8'h0;
+				__led_pins <= 8'h0;
 
         end       
     else 
         begin
             _led_pins <= ADC_in;
-				 led_pins <= _led_pins;
+				 __led_pins <= _led_pins;
+				 led_pins <= __led_pins;
         end                         
  end
  
