@@ -2,7 +2,7 @@
 
 //`timescale 1ns/1ps
 
-
+//projecy_git_init
 module test_top (
 
   input            clk_pin_p,      // Clock input (from pin)
