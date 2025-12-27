@@ -30,26 +30,20 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="ipcore_dir/icon_test.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
-    </file>
-    <file xil_pn:name="ddqw.bmm" xil_pn:type="FILE_BMM">
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
-    </file>
-    <file xil_pn:name="ch_test.cdc" xil_pn:type="FILE_CDC">
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
-    </file>
     <file xil_pn:name="test_beanch_test_top.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="138"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="138"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="138"/>
     </file>
-    <file xil_pn:name="ipcore_dir/count_test.xise" xil_pn:type="FILE_COREGENISE">
+    <file xil_pn:name="ipcore_dir/icon_test.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="12"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="ipcore_dir/test_4.xise" xil_pn:type="FILE_COREGENISE">
+    <file xil_pn:name="ipcore_dir/count_test.xise" xil_pn:type="FILE_ISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/test_4.xise" xil_pn:type="FILE_ISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="ipcore_dir/icon_test.xise" xil_pn:type="FILE_COREGENISE">

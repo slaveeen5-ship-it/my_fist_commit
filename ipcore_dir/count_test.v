@@ -7,17 +7,17 @@
 // \   \   \/     Version: P.20131013
 //  \   \         Application: netgen
 //  /   /         Filename: count_test.v
-// /___/   /\     Timestamp: Fri Dec 19 16:30:37 2025
+// /___/   /\     Timestamp: Sat Dec 27 16:43:38 2025
 // \   \  /  \ 
 //  \___\/\___\
 //             
-// Command	: -w -sim -ofmt verilog /home/vvs/work_ise_14_7/test/ipcore_dir/tmp/_cg/count_test.ngc /home/vvs/work_ise_14_7/test/ipcore_dir/tmp/_cg/count_test.v 
+// Command	: -w -sim -ofmt verilog /home/slaven/my_Work/final_commit/ipcore_dir/tmp/_cg/count_test.ngc /home/slaven/my_Work/final_commit/ipcore_dir/tmp/_cg/count_test.v 
 // Device	: 6vsx315tff1156-2
-// Input file	: /home/vvs/work_ise_14_7/test/ipcore_dir/tmp/_cg/count_test.ngc
-// Output file	: /home/vvs/work_ise_14_7/test/ipcore_dir/tmp/_cg/count_test.v
+// Input file	: /home/slaven/my_Work/final_commit/ipcore_dir/tmp/_cg/count_test.ngc
+// Output file	: /home/slaven/my_Work/final_commit/ipcore_dir/tmp/_cg/count_test.v
 // # of Modules	: 1
 // Design Name	: count_test
-// Xilinx        : /opt/tools/Xilinx/14.7/ISE_DS/ISE/
+// Xilinx        : /opt/Xilinx/14.7/ISE_DS/ISE/
 //             
 // Purpose:    
 //     This verilog netlist is a verification model and uses simulation 
